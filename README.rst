@@ -4,7 +4,7 @@ ATOMac - Automated Testing on Mac
 
 Note
 ============
-This repository is forked from https://github.com/pyatom/pyatom, and changes have been made to get compatible in Python 3. 
+This repository is forked from https://github.com/pyatom/pyatom, and changes have been made to get atomac compatible in Python 3. 
 
 To  install,
 git clone https://github.com/alexxiang007/pyatom.git
