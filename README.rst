@@ -1,17 +1,4 @@
 =================================
-This repository is forked from https://github.com/pyatom/pyatom, and changes have been made to get compatible in Python 3. 
-
-To  install,
-git clone https://github.com/alexxiang007/pyatom.git
-cd pyatom-master
-python3 setup.py build
-python3 setup.py install
-
-To test,
-import atomac
-atomac.launchAppByBundleId('com.apple.Automator')
-
-=================================
 ATOMac - Automated Testing on Mac
 =================================
 Introduction
