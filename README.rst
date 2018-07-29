@@ -1,6 +1,21 @@
 =================================
 ATOMac - Automated Testing on Mac
 =================================
+
+Note
+============
+This repository is forked from https://github.com/pyatom/pyatom, and changes have been made to get compatible in Python 3. 
+
+To  install,
+git clone https://github.com/alexxiang007/pyatom.git
+cd pyatom-master
+python3 setup.py build
+python3 setup.py install
+
+To test,
+import atomac
+atomac.launchAppByBundleId('com.apple.Automator')
+
 Introduction
 ============
 We are pleased to introduce the first Python library to fully enable GUI testing of Mac applications via the Apple Accessibility API. This library was created out of desperation. Existing tools such as using appscript to send messages to accessibility objects are painful to write and slow to use. ATOMac has direct access to the API. It's fast and easy to use to write tests.
